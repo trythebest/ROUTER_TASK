@@ -23,30 +23,30 @@ function Cart({ cart, setCart }) {
           )
         );
       };
-      
-    let plus = (product) => {
-        setCart(()=>{
-            const data = cart.findIndex((item)=> item.id === product.id )
-            console.log(data);
 
-            if(data != -1){
-            // const update=[...cart]
-            // // console.log(update);
-            cart[data].quantity += 1;
-            // console.log(cart);
-            return cart.quantity
-            }
-            else{
-                console.log(product)
-            }
-        }
-        )
-        console.log(cart);
+    // let plus = (product) => {
+    //     setCart(()=>{
+    //         const data = cart.findIndex((item)=> item.id === product.id )
+    //         console.log(data);
+
+    //         if(data != -1){
+    //         // const update=[...cart]
+    //         // // console.log(update);
+    //         cart[data].quantity += 1;
+    //         // console.log(cart);
+    //         return cart.quantity
+    //         }
+    //         else{
+    //             console.log(product)
+    //         }
+    //     }
+    //     )
+    //     console.log(cart);
        
        
        
 
-    }
+    // }
 
 
 
